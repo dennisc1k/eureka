@@ -1,0 +1,10 @@
+def soma(n):
+    if n <= 1:
+        return n
+    else:
+        return n + soma(n - 1)
+
+# Exemplo de uso:
+numero = int(input("Digite um número para somar até ele: "))
+print(f"A soma de 1 até {numero} é {soma(numero)}")
+
